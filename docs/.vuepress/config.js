@@ -1,3 +1,7 @@
+// 把最后更改时间更改为 中国地区的样式
+const moment = require('moment');
+moment.locale("zh-cn") //显示中国的时间格式
+
 module.exports = {
   title: "Chauncey",
   description: "这个杀手不太冷",
